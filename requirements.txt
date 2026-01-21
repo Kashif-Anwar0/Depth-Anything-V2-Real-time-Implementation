@@ -1,0 +1,13 @@
+opencv-python>=4.8.0
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+Pillow>=10.0.0
+
+# Optional: For YOLO object detection
+# ultralytics>=8.0.0
+
+# For GPU support (choose one):
+# For CUDA: torch torchvision --index-url https://download.pytorch.org/whl/cu118
+# For MPS (Mac): Already included in base torch
